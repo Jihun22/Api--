@@ -22,6 +22,9 @@ console.log('-------------------------------------------- 전개 연산자');
 console.log(...person); //전개 연산자 
 console.log({...person});
 
+console.log([...person]);
+console.log([...person].length);
+
 const str1 ="korea";
 console.log([...str1]);  //__proto__ -->Array 
 console.log({...str1});  //__proto__ -->Object 
