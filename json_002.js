@@ -28,6 +28,14 @@ console.log([...person][0].name); //홍길동
 console.log([...person][3].name); //을지문덕
 console.log([...person][3].age); //50
 
+console.log ({...person}[1].name); 
+
 const str1 ="korea";
 console.log([...str1]);  //__proto__ -->Array 
 console.log({...str1});  //__proto__ -->Object 
+
+//[4]: 반복 가능한 객체 --> for .. of ,...(전개 연산자)
+console.log('------------------------------------------------------------for .. of');
+for(let ele of person) {                //person--> iterable 즉 , 반복 가능한 객체가 오면 된다.
+ console.log(ele);
+}
