@@ -24,6 +24,9 @@ console.log({...person});
 
 console.log([...person]);
 console.log([...person].length);
+console.log([...person][0].name); //홍길동
+console.log([...person][3].name); //을지문덕
+console.log([...person][3].age); //50
 
 const str1 ="korea";
 console.log([...str1]);  //__proto__ -->Array 
