@@ -40,6 +40,13 @@ for(let ele of person) {                //person--> iterable 즉 , 반복 가능
  console.log(ele);
 }
 
+for(let i in person){   //0 ~12345
+    console.log(i);
+}
+
+for (let k in person[0]{
+    console.log(k);  //name,age ,nationality 
+})
 //[5]: 수정 
 
 console.log(`-------------------------------역따옴표`);
