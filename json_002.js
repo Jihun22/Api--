@@ -46,7 +46,8 @@ for(let i in person){   //0 ~12345
 
 for (let k in person[0]{
     console.log(k);  //name,age ,nationality 
-})
+}
+
 //[5]: 수정 
 
 console.log(`-------------------------------역따옴표`);
