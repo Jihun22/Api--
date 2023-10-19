@@ -44,7 +44,7 @@ for(let i in person){   //0 ~12345
     console.log(i);
 }
 
-for (let k in person[0]{
+for (let k in person[0]){
     console.log(k);  //name,age ,nationality 
 }
 
