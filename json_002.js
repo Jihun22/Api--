@@ -39,3 +39,10 @@ console.log('------------------------------------------------------------for .. 
 for(let ele of person) {                //person--> iterable 즉 , 반복 가능한 객체가 오면 된다.
  console.log(ele);
 }
+
+//[5]: 수정 
+
+console.log(`-------------------------------역따옴표`);
+person[0].name ="홍길자";
+person[0].age = 22;
+console.log (`홍길동의 이름이 ${person[0].name}로 수정되었고 , 나이는 ${person[0].age} 로 수정되었습니다.`);
