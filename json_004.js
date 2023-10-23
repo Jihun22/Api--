@@ -18,3 +18,8 @@ const book ={
 
 console.log(book["author"].name);   //홍길동 
 console.log(book["editor"].name);   //이순신
+console.log(book["isbn"]);
+console.log(book.isbn);
+console.log(book["title"]);
+console.log(book.title);
+console.log(book.category);
