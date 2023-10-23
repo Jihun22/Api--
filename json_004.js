@@ -1,6 +1,9 @@
 // 중첩된 json 데이터 다루기
 //한권의 도서 정보를 갖고 있는 JSON 데이터에 해당 도서가 속해있는 카테고리를 출력하시오.
 
+//[1]:중첩데이터
+window.onload=() =>{
+    
 const book ={
 
     "isbn":"123-456-789",
@@ -23,3 +26,12 @@ console.log(book.isbn);
 console.log(book["title"]);
 console.log(book.title);
 console.log(book.category);
+
+//개별 엑세스
+let val = "";
+val = book.category[0];
+document.getElementById("aaa").innerText=val;
+
+
+};
+
