@@ -29,9 +29,29 @@ console.log(book.category);
 
 //개별 엑세스
 let val = "";
-val = book.category[0];
-document.getElementById("aaa").innerText=val;
+// val = book.category[0];
+// document.getElementById("aaa").innerText=val;
 
+//반복문을 이용한 엑세스
+//for
 
+// for(let i=0; i<book.category.length; i++){
+//     // val +=book.category[i] +"<br>";
+//     val += `${book["category"][i]} <br>`;
+// }
+// document.getElementById("aaa").innerHTML= val;
+
+//for ..in
+
+// for(let i in book.category){
+//     val+= book.category[i] + "<br>";
+// }
+// document.getElementById("aaa").innerHTML = val;
+
+//for . of 
+for(let value of book.category) {
+    val +=value+ "<br>";
+}
+document.getElementById("aaa").innerHTML = val;
 };
 
